@@ -1,0 +1,857 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-container
+{
+    width: 100%;
+    height: 70px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.navbar-container .logo
+{
+    width: 80px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.navbar-container .logo img
+{
+    width: 100%;
+    height: 70px;
+}
+
+.navbar-container .nav-items ul 
+{
+     display: flex;
+     height: 70px;
+     margin-left: 80px;
+     justify-content: center;
+     align-items: center;
+     padding:10px;
+     width: 100%;
+ }
+
+
+ .navbar-container .nav-items ul li
+{
+    list-style: none;
+    padding-right: 15px;
+    margin-right: 5px;
+}
+
+.navbar-container .nav-items ul li a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.navbar-container .nav-items ul li:hover
+{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+.navbar-container .nav-items ul .nav-link:hover
+{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+
+
+.navbar-container .search-bar input
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    outline: none;
+
+}
+
+::placeholder
+{
+    font-size: 15px;
+}
+
+.image-container
+{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/pexels-kaip-996329.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.image-container .image-content 
+{
+     position: absolute;
+     top: 0%;
+     left: 50%;
+     height: 500px;
+}
+
+.image-container .image-content h1
+{
+    color: rgb(252, 249, 249);
+    font-size: 45px;
+    padding-top: 200px;
+    padding-left: 20px;
+    width: 90%;
+    position: relative;
+    top: -20%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.image-container .image-content a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 8px 20px;
+    background-color:white;
+    border-radius: 5px;
+    position: relative;
+    top: -10%;
+    left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.image-container .image-content a:hover
+{
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+     transform: scale(1.1);
+
+}
+
+
+
+.image-content-container
+{
+    width: 100%;
+    height: 500px;
+} 
+
+.equal-spacing
+{
+    display: flex;
+    height: inherit;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.left-cards
+{
+   height: inherit;
+   width: 50%;  
+}
+
+
+.card-1
+{
+     position: relative;
+     height: 300px;
+     width: 300px;
+     background-color: white;
+     border-radius: 15px;
+     top: 50px;
+     left:120px;
+     background-image: url('card-images/pexels-enginakyurt-1642228.jpg');
+     background-size: cover;
+     background-position: center;     
+     z-index: 1;
+}
+
+.card-2
+{
+        position: relative;
+        height: 200px;
+        width: 200px;
+        background-color: white;
+        border-radius: 15px;
+        top: -25px;
+        left: 30px;
+        background-image: url('card-images/pexels-n-voitkevich-4641825.jpg');
+        background-size: cover;
+        background-position: left;
+        z-index: 1;
+}
+
+
+.card-3
+{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        background-color: white;
+        border-radius: 15px;
+        top: -420px;
+        left: 67%;
+        background-image: url('card-images/pexels-sam-lion-5709661.jpg');
+        background-size: cover;
+        background-position: left;
+        z-index: 1;
+}
+
+
+.card-4
+{
+        position: relative;
+        height: 200px;
+        width: 130px;
+        background-color: white;
+        border-radius: 15px;
+        top: -300px;
+        left: 60%;
+        background-image: url('card-images/pexels-sam-lion-5709661.jpg');
+        background-size: cover;
+        background-position: left;
+        z-index: 0;
+}
+
+
+.right-cards
+{
+    height: inherit;
+    width: 50%;
+}
+
+.right-cards h1
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.right-cards-p-1
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 23px;
+    width: 90%;
+    position: relative;
+    top: 74px;
+}
+
+.right-cards span
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 23px;
+    width: 90%;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.right-cards-p
+{
+    position: relative;
+    top:90px;
+    left: 23px;
+    font-size: 15px;
+}
+
+.right-cards-p-2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 23px;
+    width: 90%;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.btn 
+{
+    position: relative;
+    top: 55px;
+    left: 23px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.5);
+    border: 1px solid black;
+}
+
+.services-container
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    background-color: rgb(237, 237, 237);
+}
+
+.equal-space-for-services
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: inherit;
+    margin:auto;
+}
+
+.equal-space-for-services p
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+    height: 20%;
+    display: inline-block;
+    position: relative;
+    left: 43%;
+}
+
+.equal-space-for-services h1
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+    height: 10%;
+    display: inline-block;
+    position: relative;
+    top: -8%;
+    left: 30%;
+}
+
+.services-cards
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-card
+{
+    width: 260px;
+    height: 330px;
+    background-color:white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.service-card h2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 10%;
+}
+.service-card p 
+{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     top: -5px;
+     left: 1%;
+     width: 100%;
+}
+
+.service-card:hover
+{
+    background-color: rgb(187, 183, 183);
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.service-card img
+{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.service-card div
+{ 
+    position: relative;
+    top: 20px;
+}
+
+
+.pricing-container
+
+{
+     width: 100%;
+     height: 500px;
+     background-color: rgb(237, 237, 237);
+}
+
+
+.equal-space-for-pricing
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: inherit;
+    margin:auto;
+}
+
+.equal-space-for-pricing p
+{  
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+    height: 20%;
+    display: inline-block;
+    position: relative;
+    left: 43%;
+}
+
+.equal-space-for-pricing h2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+    height: 10%;
+    display: inline-block;
+    position: relative;
+    top: -10%;
+    left: 36%;
+}
+
+
+
+.pricing-cards
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.pricing-card-1
+{
+    width: 260px;
+    height: 330px;
+    background-color:white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+
+
+
+.pricing-card-1 p 
+{
+    position: relative;
+    top: -1%;
+    left: 5%;
+    width: 100%;
+}
+
+
+
+.pricing-card-1 h2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+}
+
+.pricing-card-1 span
+
+{
+     background-color:black;
+     color: white;
+     padding:10px 30px;
+     font-size: 18px;
+     border-radius: 5px;
+     position: relative;
+     top:-10px;
+     left: 48px;
+     display: inline-block;
+     
+}
+
+.pricing-card-1:hover
+{
+    background-color: rgb(185, 184, 184);
+    color: white;
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card-2
+{
+    width: 260px;
+    height: 330px;
+    background-color:white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+
+
+.pricing-card-2 p 
+{
+    position: relative;
+    top: -1%;
+    left: 5%;
+    width: 100%;
+}
+
+
+.pricing-card-2 h2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+}
+
+
+
+.pricing-card-2 span
+
+{
+     background-color:black;
+     color: white;
+     padding:10px 30px;
+     font-size: 18px;
+     border-radius: 5px;
+     position: relative;
+     top:-10px;
+     left: 48px;
+     display: inline-block;
+     
+}
+
+
+.pricing-card-2:hover
+{
+    background-color: rgb(185, 184, 184);
+    color: white;
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card-3
+{
+    width: 260px;
+    height: 330px;
+    background-color:white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+}
+
+
+
+.pricing-card-3 p 
+{
+    position: relative;
+    top: -1%;
+    left: 5%;
+    width: 100%;
+}
+
+
+
+.pricing-card-3  h2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+}
+
+
+
+.pricing-card-3 span
+
+{
+     background-color:black;
+     color: white;
+     padding:10px 30px;
+     font-size: 18px;
+     border-radius: 5px;
+     position: relative;
+     top:-10px;
+     left: 48px;
+     display: inline-block;
+     
+}
+
+
+.pricing-card-3:hover
+{ 
+    background-color: rgb(185, 184, 184);
+    color:white;
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+footer
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.equal-space-for-footer
+{
+    height: 400px;
+    width: 90%;
+    margin:auto;
+    display: flex;
+}
+
+.logo-content
+{
+    height:400px;
+    width: 24%;
+}
+
+.logo-content img 
+{
+ 
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: -3px;
+}
+
+.logo-content p
+
+{
+     font-size: 15px;
+     width:100%;
+     position: relative;
+     top: 50px;
+     left: 10px;
+}
+
+.logo-content  i
+{
+    font-size: 15px;
+    position: relative;
+    top: 80px;
+    left:10px;
+    margin-right: 10px;
+}
+
+
+.text-content
+{
+    height: 400px;
+    width: 24%;
+    margin-left: 10px;
+}
+
+.text-content .text-1
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 153px;
+    left: 10px;
+}
+
+.text-content .text-2
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 164px;
+    left: 10px;
+}
+
+.text-content .text-3
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 175px;
+    left: 10px;
+}
+
+
+.text-content .text-4
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 186px;
+    left: 10px;
+}
+
+
+
+
+.text-content .contact-1
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 153px;
+    left: 10px;
+}
+
+.text-content .contact-2
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 164px;
+    left: 10px;
+}
+
+.text-content .contact-3
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 175px;
+    left: 10px;
+}
+
+
+.text-content .contact-4
+{
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    top: 186px;
+    left: 10px;
+}
+
+
+.grid-container
+{
+    width: 25%;
+    height: 400px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-rows:repeat(2,80px);
+    grid-template-columns: repeat(3,80px);
+    gap: 10px;
+    padding: 10px;
+    padding-top: 148px;
+    padding-left: 20px;
+}
+
+
+.grid-container .box
+{
+    
+     border-radius: 5px;
+}
+
+
+.box-1
+{
+     background-image: url('card-images/pexels-enginakyurt-1642228.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.box-2
+{
+    
+     background-image: url('card-images/pexels-sam-lion-5709661.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.box-3
+{
+    
+     background-image: url('card-images/pexels-solliefoto-298864.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.box-4
+{
+    
+     background-image: url('card-images/pexels-n-voitkevich-4641825.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.box-5
+{
+    
+     background-image: url('card-images/pexels-solliefoto-298864.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.box-6
+{
+    
+     background-image: url('card-images/pexels-sam-lion-5709661.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
