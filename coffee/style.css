@@ -1,0 +1,1782 @@
+@media (min-width:320px){
+
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navbar
+    {
+         width: 100%;
+    }
+
+    
+    .main-navbar
+    {
+      display: none;
+    }
+    .navbar-container
+    {
+        width: 95%;
+        margin: auto;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .navbar-container li 
+
+    {
+        list-style: none;
+        margin-right: 10px;
+    }
+
+
+    .navbar-container li a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:sans-serif;
+    }
+
+    .logo
+    {
+         height: 30px;
+    }
+    .logo img
+    {
+        height:30px;
+
+    }
+
+    .search 
+    {
+
+        display: flex;
+        justify-content: end;
+
+    }
+    .search .search
+    {
+        color:black;
+        font-size: 25px;
+        margin-top: 3px;
+        margin-right: 10px;
+    }
+
+    
+    .search .basket
+    {
+        color:black;
+        font-size: 30px;
+    }
+
+    .image-content-container-1
+    { 
+        background-image: url('images/coffee-banner-image.jpg');
+        background-size:530px;
+        background-repeat: no-repeat;
+        background-position-x:-130px;
+        width: 100%;
+        height:210px;
+    }
+
+    .another-text-for-img
+    {
+      display: none;
+    }
+
+
+    .text-content-for-img
+    {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+        width: 30%;
+        text-align: center;
+      
+    }
+
+    .text 
+    {
+        margin-top: 5px;
+    }
+    .text-content-for-img .text-1
+    {
+        color:white;
+        width: 95%;
+    }
+
+    .text-content-for-img i
+    {
+        color:rgb(216, 186, 17);
+    }
+
+    .text-content-for-img .text-2
+    {
+        width:90%;
+    }
+
+
+    .btn-container a
+     {
+
+        display: inline-block;
+        background-color: white;
+        color:rgb(2, 3, 88);
+        padding:10px 12px;
+        border-radius: 5px;
+        border: none;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: 3px;
+     }
+
+    
+     .btn-container a i 
+     {
+           color:rgb(2, 3, 88);
+     }
+
+     
+     .new-btn-container
+     {
+      display: none;
+     }
+
+     #more-info
+     {
+      display: none;
+     }
+
+
+     .coffee-card-container
+     {
+        width: 100%;
+     }
+
+     .coffee-card-grid
+     {
+        width: 95%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+
+
+     .card
+     {
+        position: relative;
+        height: 400px;
+        width:142px;
+        border-radius: 19px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px rgb(185, 183, 183);
+     }
+
+     .upper-portion
+     {
+        height: 45%;
+        background-image: url('images/Instant_Jar_GC_mug_listing_image_1080x.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-2
+     {
+        height: 45%;
+        background-image: url('images/back-img.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-3
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-2.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-4
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-3.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-5
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-4.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-6
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-5.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+
+     .lower-portion
+     {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        height: 55%; 
+     }
+
+     .btn-parent
+     {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        justify-content: end;
+     }
+     .card a 
+     { 
+        display: block;
+        padding:5px 10px;
+        background-color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(79, 156, 234);
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+     }
+
+
+     .card h4
+     {
+        width: 50%;
+        font-family: sans-serif;
+        font-weight: bold;
+     }
+
+     .card .combo
+     {
+        padding:2px 7px;
+        background-color:#A6FFFF;
+        border-radius: 15px;
+        color: #075a6c;
+        font-size: 12px;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5px;
+     }
+
+     .card p
+     {
+        font-family: sans-serif;
+        font-size: 10px;
+        margin-top: 5px;
+        width: 80%;
+     }
+
+     .price-container
+    {
+      width: 90%;
+      display: flex;
+      align-items: center;
+
+     }
+
+     .card .price
+     {
+        font-weight: bold;
+        color: rgb(79, 156, 234);
+        font-size: 10px;
+     }
+
+     .card-1 .discount
+     {
+       font-size: 10px;
+       text-decoration: line-through;
+
+     }
+     
+     .card-2 .discount
+     {
+       font-size: 10px;
+       text-decoration: line-through;
+
+     }
+     .card-3 .discount
+     {
+       font-size: 10px;
+       text-decoration: line-through;
+
+     }
+     .card-4 .discount
+     {
+       font-size: 10px;
+       text-decoration: line-through;
+
+     }
+     .card-5 .discount
+     {
+       font-size: 10px;
+       text-decoration: line-through;
+
+     }
+
+     .card-6 .discount
+     {
+       font-size: 10px;
+       text-decoration: line-through;
+
+     }
+
+     .combos 
+
+     {
+        
+        padding:2px 7px;
+        background-color:#3C254F;
+        color: #fff;
+        border-radius: 15px;
+        font-size: 10px;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-family: sans-serif;
+        display: inline-block;        
+     }
+
+     .space
+     {
+         height: 70px;
+         width: 100%; 
+     }
+
+     .main-footer
+     {
+        display: none;
+     }
+
+     .footer
+     {
+       width: 100%;
+     }
+
+     
+     .foot-items-container
+     {
+       height: auto;
+       display: flex;
+       width: 95%;
+       margin:auto;
+       flex-direction: column;
+       justify-content: space-around;
+       position: relative;
+     }
+
+
+     .mahaparent
+     {
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-wrap: wrap;
+     }
+
+      .outer-left-parent-1
+     {
+       height: 180px;
+       width: 50%;
+     }
+
+     .inner-flex-left
+     {
+       display: flex;
+       flex-direction: column;
+       height: 50px;
+       justify-content: space-around;
+     }
+
+     .move
+     {
+      display: flex;
+      width: 55%;
+      justify-content: center;
+      align-items: end;
+      height: 26px;
+     }
+
+     .foot-head
+     {
+        font-family: sans-serif;
+        width: 100%;
+     }
+
+     .te
+     {
+      font-family: sans-serif;
+      font-size: 12px;
+     }
+     
+     .left
+     {
+      width: 50%;
+     }
+
+
+     .right
+     {
+        height: 180px;
+        width: 50%;
+     }
+
+     .outer-right-parent
+     {
+       height: 150px;
+       width: 100%;
+       display: flex;
+       align-items: end;
+     }
+
+     .right-text
+     {
+      font-family: sans-serif;
+      font-size: 12px;
+     }
+
+     .inner-parent
+     {
+      display: flex;
+      flex-direction: column;
+      height: 180px;
+      justify-content: space-between;
+      width: 100%;
+     }
+     .right-parent
+     {
+      display: flex;
+      flex-direction: column;
+      height: 113px;
+      justify-content: space-between;
+     }
+
+     .outer-parent-left
+     {
+        height: 180px;
+        display: flex;
+        width: 50%;
+     }
+
+     .inner-parent-left
+     {
+       display: flex;
+       flex-direction: column;
+       justify-content: end;
+       height: 53px;
+     }
+
+     .space-2
+     {
+        height: 10px;
+        width: 100%;
+     }
+     .right-flex-container
+     {
+        height: 50px;
+        display: flex;
+        align-items: end;
+     }
+
+
+     .right-move
+     {
+       display: flex;
+       flex-direction: column;
+       justify-content: end;
+       height: 98px;
+     }
+
+     .right-inner-flex
+     {
+
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+
+}
+
+@media (min-width:480px){
+
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navbar
+    {
+         width: 100%;
+    }
+
+    .main-navbar
+    {
+      display: none;
+    }
+
+    .navbar-container
+    {
+        width: 95%;
+        margin: auto;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .navbar-container li 
+
+    {
+        list-style: none;
+        margin-right: 10px;
+    }
+
+
+    .navbar-container li a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:sans-serif;
+    }
+
+    .logo
+    {
+         height: 30px;
+    }
+    .logo img
+    {
+        height:30px;
+    }
+
+
+    .search 
+    {
+
+        display: flex;
+        justify-content: end;
+
+    }
+    .search .search
+    {
+        color:black;
+        font-size: 25px;
+        margin-top: 3px;
+        margin-right: 10px;
+    }
+
+    
+    .search .basket
+    {
+        color:black;
+        font-size: 30px;
+    }
+
+    .image-content-container-1
+    { 
+        background-image:url('images/coffee-banner-image.jpg');
+        background-size: cover;
+        background-position-x:-100px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height:230px;
+
+    }
+   
+   .another-text-for-img
+   {
+      display: none;
+   }
+
+    .text-content-for-img
+    {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 230px;
+        justify-content: center;
+    }
+
+
+    .text 
+    {
+        margin-top: 5px;
+    }
+    .text-content-for-img .text-1
+    {
+        color:white;
+        width: 100%;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+
+    .text-content-for-img i
+    {
+        color:rgb(216, 186, 17);
+    }
+    
+    .text-spacer
+    {
+       display: flex;
+       width: 100%;
+       justify-content: center;
+    }
+
+    .text-content-for-img .text-2
+    {
+        font-size: 13px;
+        font-weight: 300;
+        width: 70%;
+    }
+
+
+    .btn-container a
+     {
+
+        display: inline-block;
+        background-color: white;
+        color:rgb(2, 3, 88);
+        padding:10px 12px;
+        border-radius: 5px;
+        border: none;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: 3px;
+     }
+   
+     .btn-container
+     {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+     }
+
+    
+     .btn-container a i 
+     {
+           color:rgb(2, 3, 88);
+     }
+
+
+     .new-btn-container
+     {
+      display: none;
+     }
+
+     #more-info
+     {
+      display: none;
+     }
+     
+     .coffee-card-container
+     {
+        margin-top: 30px;
+        height: auto;
+        width: 100%;
+     }
+
+     .coffee-card-grid
+     {
+        width: 95%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+     }
+
+
+     .card
+     {
+        position: relative;
+        height: 400px;
+        width:210px;
+        border-radius: 19px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px rgb(185, 183, 183);
+     }
+
+     .upper-portion
+     {
+        border: 1px solid black;
+        height: 45%;
+        background-image: url('images/Instant_Jar_GC_mug_listing_image_1080x.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-2
+     {
+        height: 45%;
+        background-image: url('images/back-img.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-3
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-2.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-4
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-3.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-5
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-4.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-6
+     {
+        
+        height: 45%;
+        background-image: url('images/back-img-5.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+
+     .lower-portion
+     {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        height: 55%; 
+     }
+
+     .btn-parent
+     {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        justify-content: end;
+     }
+
+     .card a 
+     { 
+        display: block;
+        padding:5px 10px;
+        background-color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(79, 156, 234);
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+     }
+
+
+     .card h4
+     {
+        width: 100%;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+     }
+
+     .card .combo
+     {
+        padding:2px 7px;
+        background-color:#A6FFFF;
+        border-radius: 15px;
+        color: #075a6c;
+        font-size: 12px;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 5px;
+     }
+
+     .card p
+     {
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-top: 5px;
+        width: 100%;
+     }
+
+     .price-container
+     {
+      width: 90%;
+      display: flex;
+      align-items: center;
+       height: 30px;
+      }
+
+     .card .price
+     {
+        font-weight: bold;
+        color: rgb(79, 156, 234);
+        font-size: 12px;
+     }
+
+     .card-1 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+     
+     .card-2 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+     .card-3 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+     .card-4 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+     .card-5 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+
+     .card-6 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+
+     .combos 
+
+     {
+        
+        padding:2px 7px;
+        background-color:#3C254F;
+        color: #fff;
+        border-radius: 15px;
+        font-size: 10px;
+        width: 65%;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-family: sans-serif;
+        display: inline-block;   
+
+     }
+
+
+     .space
+     {
+       width: 100%;
+       height: 30px;
+     }
+
+     .main-footer 
+     {
+      display: none;
+     }
+
+     .footer
+     {
+       
+       width: 100%;
+     }
+
+     
+     .foot-items-container
+     {
+       height: auto;
+       display: flex;
+       width: 95%;
+       margin:auto;
+       flex-direction: column;
+       justify-content: space-around;
+       position: relative;
+     }
+
+
+     .mahaparent
+     {
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-wrap: wrap;
+     }
+
+      .outer-left-parent-1
+     {
+       height: 180px;
+       width: 50%;
+     }
+
+     .inner-flex-left
+     {
+       display: flex;
+       flex-direction: column;
+       height: 55px;
+       justify-content: space-around;
+     }
+
+     .move
+     {
+      display: flex;
+      width: 45%;
+      height: 23px;
+      justify-content:space-around;
+     }
+
+     .foot-head
+     {
+        font-family: sans-serif;
+     }
+     .te
+     {
+      font-family: sans-serif;
+      font-size: 14px;
+     }
+   
+     .left
+     {
+      width: 50%;
+     }
+
+     .right
+     {
+        height: 180px;
+        width: 50%;
+     }
+     .outer-right-parent
+     {
+       height: 150px;
+       width: 100%;
+       display: flex;
+       align-items: end;
+     }
+
+     .right-text
+     {
+      font-family: sans-serif;
+      font-size: 14px;
+     }
+
+     .inner-parent
+     {
+      display: flex;
+      flex-direction: column;
+      height: 180px;
+      width: 100%;
+      justify-content: space-between;
+     }
+
+     .right-parent
+     {
+      display: flex;
+      flex-direction: column;
+      height: 114px;
+      justify-content: space-between;
+ 
+     }
+
+     .outer-parent-left
+     {
+        height: 180px;
+        display: flex;
+        width: 50%;
+     }
+
+     .inner-parent-left
+     {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       height: 60px;
+     }
+     .right-flex-container
+     {
+        height: 40px;
+        display: flex;
+        align-items: end;
+     }
+
+     .right-move
+     {
+       display: flex;
+       flex-direction: column;
+       justify-content: end;
+       height: 98px;
+     }
+
+     .right-inner-flex
+     {
+
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+
+}
+
+@media (min-width:1372px){
+
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .navbar
+    {
+         display: none;
+         width: 100%;
+    }
+
+    .main-navbar
+    {
+      width: 100%;
+      display: block;
+    }
+
+    .equal-width-nav-container
+    {
+       width: 80%;
+       margin:auto;
+       height: 80px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+   .logo 
+   {
+      display: flex;
+      height: 80px;
+      align-items: center;
+       
+   }
+    .logo img
+    {
+       height: 70px;
+    }
+
+    .navbar-items ul 
+    {
+      display: flex;
+    }
+
+    .navbar-items ul li 
+    {
+       list-style: none;
+       padding-left: 30px;
+    }
+   
+    .navbar-items ul li a 
+    {
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+
+    .image-content-container-1
+    { 
+      background-image: url('images/coffee-banner-image.jpg');
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+      overflow: hidden;
+    }
+   
+    .text-content-for-img
+    {
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        justify-content: center;
+        display:none;
+    }
+
+
+    .another-text-for-img
+    {
+        background: #c9bfc8;
+        background: radial-gradient(circle, rgba(201, 191, 200, 1) 17%, rgb(0, 0, 0) 66%);
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 100px 20px 20px 20px rgba(0, 0, 0, 1);
+        
+    }
+    .another-head
+    {
+        color: white;
+        font-size: 38px;
+        font-weight: bold;
+        font-family:sans-serif;
+        width: 41%;
+    }
+
+    .another-text-space
+    {
+       display: flex;
+       flex-direction: column;
+       height: 90px;
+       width: 100%;
+       justify-content: center;
+       align-items:center;
+    }
+
+    .another-text
+    {
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 600;
+        font-family: sans-serif;
+        width: 40%;
+    }
+
+    .another-btn
+    {
+       padding: 10px 12px;
+       background-color: #0113B0;
+       color: white;
+       font-weight: bold;
+       font-size: 15px;
+       border: none;
+       border-radius: 5px;
+       text-decoration: none;  
+    }
+
+    .anotherbtn-container
+    {
+        width:40%;
+        height:50px;
+        display: flex;
+        align-items: center;
+    }
+    .text 
+    {
+        margin-top: 5px;
+    }
+    .text-content-for-img .text-1
+    {
+        color:white;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+
+    .text-content-for-img i
+    {
+        color:rgb(216, 186, 17);
+    }
+    
+    .text-spacer
+    {
+       display: flex;
+       width: 100%;
+       justify-content: center;
+    }
+
+    .text-content-for-img .text-2
+    {
+        font-size: 13px;
+        font-weight: 300;
+        width: 70%;
+    }
+
+
+    .text a
+     {
+
+        display: inline-block;
+        background-color: white;
+        color:rgb(2, 3, 88);
+        padding:10px 12px;
+        border-radius: 5px;
+        border: none;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: 3px;
+     }
+   
+     .btn-container
+     {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+     }
+
+    
+     .text a i 
+     {
+           color:rgb(2, 3, 88);
+     }
+
+
+     .coffee-card-container
+     {
+        margin-top: 80px;
+        height: auto;
+        width: 100%;
+     }
+
+     .coffee-card-grid
+     {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+     }
+
+
+     .card
+     {
+        position: relative;
+        height: 560px;
+        width:30%;
+        border-radius: 19px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 10px rgb(185, 183, 183);
+        
+     }
+
+     .upper-portion
+     {
+        border: 1px solid black;
+        height: 50%;
+        background-image: url('images/Instant_Jar_GC_mug_listing_image_1080x.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-2
+     {
+        height: 50%;
+        background-image: url('images/back-img.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-3
+     {
+        height: 50%;
+        background-image: url('images/back-img-2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-4
+     {
+        height: 50%;
+        background-image: url('images/back-img-3.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-5
+     {
+        
+        height: 50%;
+        background-image: url('images/back-img-4.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+     .upper-portion-6
+     {
+        
+        height: 50%;
+        background-image: url('images/back-img-5.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-top-left-radius:19px;
+        border-top-right-radius:19px;
+     }
+
+
+     .lower-portion
+     {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        height: 50%;
+        position: relative; 
+     }
+
+     .btn-parent
+     {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        justify-content: end;
+     }
+
+     .card .child-btn
+     { 
+        display: block;
+        padding:5px 10px;
+        background-color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        color: rgb(79, 156, 234);
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+     }
+
+
+     .card h4
+     {
+        width: 85%;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+
+     }
+
+     #more-info 
+     {
+       padding: 5px 10px;
+       border: 1px solid #1774FF;
+       color: #1774FF;
+       width: 30%;
+       text-align: center;
+       border-radius: 5px;
+       position: absolute;
+       top: 63px;
+       left: 220px;
+       display: block;
+       font-size: 12px;
+       font-weight: bold;
+       font-family: sans-serif;
+
+      }
+
+     .card .combo
+     {
+        padding:5px 13px;
+        background-color:#A6FFFF;
+        border-radius: 15px;
+        color: #075a6c;
+        font-size: 12px;
+        width: 30%;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: bold;
+     }
+
+     .card p
+     {
+        font-family: sans-serif;
+        font-size: 13px;
+        line-height: 25px;
+        margin-top: 5px;
+        width: 100%;
+     }
+
+     .price-container
+     {
+      width: 90%;
+      display: flex;
+      align-items: center;
+       height: 30px;
+       display: none;
+      }
+
+     .card .price
+     {
+        font-weight: bold;
+        color: rgb(79, 156, 234);
+        font-size: 12px;
+     }
+
+     .card-1 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+     
+     .card-2 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+     }
+
+     .card-3 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+     .card-4 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+     .card-5 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+
+     .card-6 .discount
+     {
+       font-size: 12px;
+       text-decoration: line-through;
+
+     }
+
+
+     /* new price btn for screen size 1372 mine*/
+
+     .new-btn-container
+
+     { 
+       height: 50px;
+       width: 100%;
+       background-color: #1774FF; 
+       border-radius: 5px;
+       color: white;
+       font-weight: bold;
+       font-family: sans-serif;
+       margin-top: 13px;
+       display: block;
+     }
+     
+     .og-btn
+     {
+       height: 50px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+     }
+
+     .og-btn .og-price
+     {
+        text-decoration: line-through;
+        color: rgb(178, 177, 177);
+     }
+     .combos 
+
+     {
+        
+        padding:5px 15px;
+        background-color:#3C254F;
+        color: #fff;
+        border-radius: 15px;
+        font-size: 10px;
+        width: 40%;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-family: sans-serif;
+        display: inline-block;   
+
+     }
+
+
+     .space
+     {
+       width: 100%;
+       height: 30px;
+     }
+
+     .footer
+     {
+       width: 100%;
+       display: none;
+     }
+
+     
+     .foot-items-container
+     {
+       height: auto;
+       display: flex;
+       width: 95%;
+       margin:auto;
+       flex-direction: column;
+       justify-content: space-around;
+       position: relative;
+     }
+
+
+     .mahaparent
+     {
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-wrap: wrap;
+     }
+
+      .outer-left-parent-1
+     {
+       height: 180px;
+       width: 50%;
+     }
+
+     .inner-flex-left
+     {
+       display: flex;
+       flex-direction: column;
+       height: 55px;
+       justify-content: space-around;
+     }
+
+     .move
+     {
+      display: flex;
+      width: 45%;
+      height: 23px;
+      justify-content:space-around;
+     }
+
+     .foot-head
+     {
+        font-family: sans-serif;
+     }
+     .te
+     {
+      font-family: sans-serif;
+      font-size: 14px;
+     }
+   
+     .left
+     {
+      width: 50%;
+     }
+
+     .right
+     {
+        height: 180px;
+        width: 50%;
+     }
+     .outer-right-parent
+     {
+       height: 150px;
+       width: 100%;
+       display: flex;
+       align-items: end;
+     }
+
+     .right-text
+     {
+      font-family: sans-serif;
+      font-size: 14px;
+     }
+
+     .inner-parent
+     {
+      display: flex;
+      flex-direction: column;
+      height: 180px;
+      width: 100%;
+      justify-content: space-between;
+     }
+
+     .right-parent
+     {
+      display: flex;
+      flex-direction: column;
+      height: 114px;
+      justify-content: space-between;
+ 
+     }
+
+     .outer-parent-left
+     {
+        height: 180px;
+        display: flex;
+        width: 50%;
+     }
+
+     .inner-parent-left
+     {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       height: 60px;
+     }
+     .right-flex-container
+     {
+        height: 40px;
+        display: flex;
+        align-items: end;
+     }
+
+     .right-move
+     {
+       display: flex;
+       flex-direction: column;
+       justify-content: end;
+       height: 98px;
+     }
+
+     .right-inner-flex
+     {
+
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     }
+
+
+     .main-footer
+     {
+       display: block;
+       width: 100%;
+     }
+
+     .equal-spaced-footer
+     {
+       width: 80%;
+       height: 400px;
+       margin:auto;
+       display: flex;
+     }
+
+     .foot-card
+     {
+      display: flex;
+      flex-direction: column;
+      width:30%;
+     }
+
+     .foot-card h3
+     {
+       font-family: sans-serif;
+       font-weight: bold;
+       margin-bottom: 10px;
+     }
+
+     .foot-card p
+     {
+       font-family: sans-serif;
+       font-size: 18px;
+       margin-bottom: 10px;
+
+     }
+
+}
+
