@@ -1,0 +1,181 @@
+.image-banner
+{
+     height: 100vh;
+     background-image: url('images/moon-7461962.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+     position: relative;
+}
+
+.image-banner h1 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 30px;
+}
+
+.image-banner .lead
+{ 
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 20px;
+}
+
+
+.content-container
+{
+     height:950px;
+}
+
+
+.circle
+{
+    border: 1px solid white;
+    width:30px;
+    height: 30px;
+    position: relative;
+    top: 18px;
+    left:-4px;
+    border-radius: 50%;
+}
+.line
+{
+     border-left: 1px solid white;
+     height:198px;
+     position: relative;
+     top: 18px;     
+     left:21.8px;
+}
+
+
+
+.circle-2
+{
+    border: 1px solid white;
+    width:30px;
+    height: 30px;
+    position: relative;
+    top: 18px;
+    left:-4px;
+    border-radius: 50%;
+}
+
+
+.line-2
+{
+     border-left: 1px solid white;
+     height:340px;
+     position: relative;
+     top: 18px;     
+     left:21.8px;
+}
+
+
+.content-container-2
+{
+     height: 1000px;
+}
+
+
+
+.circle-3
+{
+    border: 1px solid white;
+    width:30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left:-4px;
+    border-radius: 50%;
+}
+
+
+.line-3
+{
+     border-left: 1px solid white;
+     height:200px;
+     position: relative;
+     top: 10px;     
+     left:21.8px;
+}
+
+
+
+
+
+.circle-4
+{
+    border: 1px solid white;
+    width:30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left:-4px;
+    border-radius: 50%;
+}
+
+
+.line-4
+{
+     border-left: 1px solid white;
+     height:190px;
+     position: relative;
+     top: 10px;     
+     left:21.8px;
+}
+
+
+.image-of-system
+{
+     height: 500px;
+     background-image:linear-gradient(rgba(0, 0, 255, 0.2) , rgba(0, 0, 255, 0.2)), url('images/javier-miranda-nUsBA0isRyY-unsplash\ \(1\).jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+.image-row
+{
+      height:300px;
+}
+
+.img
+{
+     height: 300px;
+     width: 100%;
+
+}
+
+
+.banner-image
+{
+     height: 500px;
+     background-image: url('images/javier-miranda-AlJ9TQqeCV0-unsplash.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+.vid
+{
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+}
+
+
+.foot-container
+{
+     height: 200px;
+}
