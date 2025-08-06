@@ -1,0 +1,345 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{ 
+    height: 60px;
+    width: 100%;
+    background-color:rgb(235, 87, 87);
+    top:0px;
+    position: sticky;
+    z-index: 1;
+}
+
+.nav-container
+{ 
+    height:60px;
+    width: 80%;
+    margin:auto;
+}
+
+.logo
+{ 
+    
+     height:60px;
+     width:20%;
+     text-align:center;
+     float: left;
+    
+}
+.logo img {
+     margin-top: 15px;
+}
+
+
+.menu
+{   
+    height: 60px;
+    width: 50%;
+    float: right;
+}
+
+.menu ul
+{  
+    list-style-type: none;
+   
+}
+
+.menu ul li {
+     line-height: 60px;
+     padding: 0px 22px;
+     float:left;
+     
+}
+
+.menu ul li a {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-decoration: none;
+     color: white;
+    
+}
+
+
+.cart { 
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:5px 8px;
+     background-color: black;
+}
+
+.cart-count {
+     padding: 0px 5px;
+     background-color: white;
+     color: black;
+     border-radius: 50%;
+     margin-left: 5px;
+     position: relative;
+     top: -12px;
+     left: -15px;
+}
+
+
+.img-container
+{
+     width: 100%;
+     height: 600px;
+}
+
+.img {
+     width: 100%;
+     height: 600px;
+     background-image:linear-gradient(rgba(0,0,0,0.5)) ,url('Images/bacche.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+}
+
+
+.main-head
+{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 40px;
+     color: white;
+     position: absolute;
+     transform:translate(-50%,-50%);
+     top: 50%;
+     left:50%;
+     font-weight:800;
+}
+
+.main-para
+{
+     
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size:25px;
+     color: white;
+     position: absolute;
+     transform:translate(-50%,-50%);
+     top: 58%;
+     left:50%;
+}
+
+
+.main-para-2
+{
+   
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size:17px;
+     color: white;
+     position: absolute;
+     transform:translate(-50%,-50%);
+     top: 72%;
+     left:50%;
+     text-align: center;
+     line-height: 25px;
+}
+
+
+.content-container
+{
+     width: 100%;
+     height: 400px;
+}
+
+
+.space-for-content
+{
+     width: 90%;
+     height: 400px;
+     margin: auto;
+}
+
+
+.card-container
+{
+     width: 45%;
+     height: 400px;
+     margin:auto;
+     position: relative;
+     border: 2px solid black;
+     border-radius: 10px;
+}
+
+
+
+.card-1
+{
+     width: 80%;
+     height:50px;
+     background-color: #eb5757;
+     position:absolute;
+     top:15px;
+     left: 10%;
+     margin:0 auto;
+     border-radius: 10px;
+}
+
+
+
+.card-2
+{
+     width: 80%;
+     height:50px;
+     background-color:#eb5757;
+     position: absolute;
+     top: 90px;
+     left:10%;
+     margin:0px auto;
+     border-radius: 10px;
+}
+
+
+
+
+.card-3
+{
+     width: 80%;
+     height:50px;
+     background-color:#eb5757;
+     position: absolute;
+     margin:0px auto;
+     top: 170px;
+     left:10%;
+     border-radius: 10px;
+}
+
+
+
+.card-4
+{
+     width: 80%;
+     height:50px;
+     background-color:#eb5757;
+     position: absolute;
+     top:250px;
+     left: 10%;
+     margin:0px auto;
+     border-radius: 10px;
+}
+
+
+
+
+.card-5
+{
+     width: 80%;
+     height:50px;
+     background-color:#eb5757;
+     position: absolute;
+     top:330px;
+     left: 10%;
+     border-radius: 10px;
+
+}
+
+
+.card-head
+{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 25px;
+     color: white;
+     position: relative;
+     top:10px;
+     left: 150px;
+     text-decoration: none;
+}
+
+.card-1:hover{
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+}
+
+.card-2:hover{
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+}
+.card-3:hover{
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+}
+.card-4:hover{
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+}
+
+.card-5:hover{
+     background-color: black;
+     color: white;
+     transition: 0.7s;
+}
+
+
+
+
+/* Footer styles */
+
+
+
+
+
+.footer { 
+     width: 100%;
+     height: 210px;
+     background-color: rgb(34, 34, 34);
+     position: relative;
+}
+
+
+.footer-ele-cont { 
+     width: 70%;
+     height: 210px;
+     margin: auto;
+}
+
+
+.foot-logo { 
+    position:absolute;
+    top: 20%;
+    left:13%;
+}
+
+.foot-txt { 
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.foot-txt a:hover{
+    text-decoration: none;
+}
+
+.foot-link{
+    color:#eb5757;
+}
+
+.foot-icons { 
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+
+}
+
+.foot-icons a { 
+     text-decoration: none;
+     color: white;
+} 
+
+
+.foot-icons a:hover {
+    opacity: 0.5;
+}
