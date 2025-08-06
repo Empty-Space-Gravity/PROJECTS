@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  overflow: auto;
+}
+
+.pop-3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+.mainbar {
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  top: 0px;
+  z-index: 99999;
+}
+
+.equal-width {
+  width: 95%;
+  margin: auto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.left-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+  margin-left: 12px;
+}
+
+.left-bar img {
+  height: 25px;
+}
+
+.left-bar ul {
+  display: flex;
+  align-items: center;
+}
+.left-bar ul li {
+  margin-top: 5px;
+  list-style: none;
+  padding: 0px 0px 10px 20px;
+}
+
+.left-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.right-bar ul {
+  display: flex;
+  align-items: center;
+}
+
+.right-bar ul li {
+  position: relative;
+  list-style: none;
+  padding-right: 15px;
+}
+
+.right-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.left-bar ul li a {
+  padding: 10px;
+}
+
+.left-bar ul li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  transition: 0.7s;
+  box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.527);
+}
+
+.right-bar ul li a {
+  padding: 10px;
+}
+
+.right-bar ul .round a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.527);
+  
+  transition: 0.7s;
+}
+
+.right-bar ul .square a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  transition: 0.7s;
+  padding: 10px;
+  box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.527);
+
+}
+
+.right-bar ul .square-d
+{
+    position: relative;
+}
+
+.right-bar ul .square-d .drop {
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18); 
+  position: absolute;
+  top: 55px;
+  left: -440px;
+  width: 780px;
+  height: 390px;
+  color: white;
+  border-radius: 5px;
+  padding:20px 0px 20px 20px;
+  z-index: 9999;
+  display: none;
+
+}
+
+.right-bar ul .square-d:hover .drop {
+  display: block;
+}
+
+.right-bar ul .square-d .drop a 
+{ 
+     font-size: 15px;
+}
+
+.right-bar ul .square-d .drop .third a {
+     font-size: 15.4px;
+} 
+
+.right-bar ul .square-d .drop ul li {
+  padding: 10px 0px;
+}
+
+.right-bar ul .square-d .drop ul {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.right-bar ul .square-d .drop .last-list li a
+{
+    font-size: 13px;
+}
+
+.right-bar ul .square-d .drop .last-list li {
+  position: absolute;
+  top: 18px;
+  left: 700px;
+}
+
+.right-bar ul .square-d a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  transition: 0.7s;
+  padding: 10px;
+  box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.527);
+}
+
+.right-bar ul .btn a {
+  background-color: #0496ff;
+  color: white;
+  border-radius: 5px;
+  transition: 0.7s;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.right-bar ul .btn a:hover {
+  background-color: #37a1ed;
+  box-shadow: 0px 0px 20px 9px #0496ff;
+}
+
+.right-bar ul .gola img {
+  height: 40px;
+}
+.right-bar ul .gola img:hover {
+  border: 1px solid white;
+  outline: 3px solid white;
+  border-radius: 50%;
+}
+.right-bar ul .gola 
+{
+     position: relative;
+}
+.right-bar ul .gola .profile-details
+{
+    position:absolute;
+    height:330px;
+    width: 210px;
+    top: 60px;
+    left: 15px;
+    padding:20px;
+    background: rgba( 0, 0, 0, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: none;
+    z-index:1;
+    
+}
+
+.right-bar ul .gola .profile-details h2
+{
+     color:rgb(163, 156, 156);
+     font-weight: bold;
+     font-size: 17px;
+}
+.right-bar ul .gola .profile-details ul li a
+{
+     display: inline-block;
+     font-weight: bold;
+     font-size: 14px;
+     color:white;
+     width: 170px;
+     border-radius: 10px;
+
+}
+
+.right-bar ul .gola .profile-details ul li a:hover
+{
+     transition: 0.7s;
+     background-color: white;
+     color: black;
+     box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.527);
+}
+
+.right-bar ul .gola .profile-details ul li
+{
+     padding:20px 0px;
+}
+
+.right-bar ul .gola .profile-details ul 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 35px;
+    margin-left: -10px;
+}
+.right-bar ul .gola:hover .profile-details
+{
+    display: block;
+    transition: 0.6s;
+}
+
+
+.right-bar ul .square .drop .third {
+  font-size: 5px;
+}
+
+.image-container {
+  width: 100%;
+  background-image: url("images/MLP.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+}
+
+.left {
+  height: 600px;
+  width: 48%;
+  box-shadow: 5px 1px 40px 50px rgba(0, 0, 0, 1);
+  background-color: black;
+}
+.left h1 {
+  margin-top: 80px;
+  padding: 20px 60px;
+  font-size: 39px;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+}
+.left p {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 90%;
+  margin-left: 65px;
+  font-weight: bold;
+  color: white;
+}
+
+.left a {
+  display: inline-block;
+  padding: 20px 22px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+.left a:hover {
+  transition: 0.7s;
+  transform: scale(1.3);
+  
+ 
+  box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.527);
+}
+
+.image-container-2 {
+  width: 100%;
+  background-image: url("images/TVOD_MLP_Right.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  display: flex;
+}
+
+.left-2 {
+  height: 650px;
+  width: 50%;
+  box-shadow: 5px 1px 40px 50px rgba(0, 0, 0, 1);
+  background-color: black;
+  color: white;
+}
+
+.left-2 .head-2 {
+  margin-top: 80px;
+  padding: 20px 60px;
+  font-size: 39px;
+  width: 90%;
+  font-weight: bold;
+}
+
+.left-2 .text-2 {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 80%;
+  margin-left: 65px;
+  font-weight: bold;
+}
+
+.left-2 a {
+  display: inline-block;
+  padding: 20px 22px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 60px;
+  font-weight: bold;
+}
+
+.left-2 a:hover {
+  transition: 0.7s;
+  transform: scale(1.3);
+  box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.527);
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.left-content {
+  height: 600px;
+  width: 45%;
+  background-color: black;
+}
+
+.left-content h1 {
+  margin-top: 80px;
+  padding: 20px 60px;
+  font-size: 39px;
+  width: 75%;
+  font-weight: bold;
+  color: white;
+}
+
+.left-content p {
+  margin-top: 20px;
+  font-size: 17px;
+  width: 95%;
+  margin-left: 65px;
+  color: white;
+  font-weight: bold;
+}
+
+.right-content {
+  height: 600px;
+  width: 50%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  grid-template-rows: repeat(3, 120px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.grid-box {
+  border-radius: 15px;
+  background-color: #37a1ed;
+  animation-name: slide-in-blurred-bottom;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes slide-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+.box-1 {
+  background-image: url("images/apple.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-1:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-2 {
+  background-image: url("images/crunchyroll.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-2:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-3 {
+  background-image: url("images/lionsgatepaly.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-3:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-4 {
+  background-image: url("images/discovery+.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-4:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-5 {
+  background-image: url("images/animetimes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-5:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-6 {
+  background-image: url("images/manorama.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-6:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-7 {
+  background-image: url("images/chaupal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-7:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-8 {
+  background-image: url("images/bbcplayer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-8:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.box-9 {
+  background-image: url("images/fancode.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-9:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 50px -10px rgba(255, 255, 255, 0.527);
+}
+
+.footer {
+  width: 100%;
+  background-color: #222222;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.footer .foot-logo img {
+  height: 30px;
+}
+
+.footer .foot-content a {
+  display: inline-block;
+  text-decoration: none;
+  color: #73baec;
+  font-size: 17px;
+  margin: 5px 10px;
+}
+
+.footer .foot-content a:hover {
+  color: #a1d0f1;
+}
+
+.last-foot-content p {
+  margin-top: 20px;
+  color: #8197a4;
+  font-weight: 500;
+  font-size: 15px;
+}
