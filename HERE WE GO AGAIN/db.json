@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/4/G3TQ6sdO_247e13ebc80647d59a1ede3c635d4c53.jpg",
+            "product_name": "Dollar – Men Rain Suit (3XL)",
+            "price": 786
+        },
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/26775252/2024/1/4/923bfd6b-66c5-42c1-b153-3cc301617e231704354035869DollarMenReversibleHoodedRainSuit1.jpg",
+            "product_name": "Dollar – Men Hooded Rain Jacket (XXL)",
+            "price": 843
+        },
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/26775216/2024/1/4/5e5bb599-703b-40ee-8d65-fc97a76ea7771704353840736DollarMenHoodedWaterproofRainSuit1.jpg",
+            "product_name": "Dollar – Waterproof Hood Rain Jacket (XXL)",
+            "price": 566
+        },
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/18104252/2022/4/30/21ce7a9e-6908-4721-b2ae-ed3e4eb592221651316344972RainJacket1.jpg",
+            "product_name": "Zeel – Women Solid Rain Jacket (3XL)",
+            "price": 1192
+        },
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/4/EIQJR0Zg_431d8d24b68340d0811e71f2b55553c6.jpg",
+            "product_name": "Dollar – Men Rain Suit (4XL)",
+            "price": 786
+        },
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/30073585/2024/6/29/65b229d1-2167-4d84-a9f6-0e5396f9e3161719654966327AlexvyanPrintedHoodedRainJacket1.jpg",
+            "product_name": "Alexvyan – Printed Hooded Rain Jacket (L)",
+            "price": 599
+        },
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/22/PN23JlXk_14572448df8546e087e0615c9d309f73.jpg",
+            "product_name": "Bold N Elegant – Kids 3D Unicorn Raincoat (5–7Y)",
+            "price": 807
+        },
+        {
+            "image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/26775254/2024/1/4/91df7f35-db92-44c3-b893-f8c5f328427c1704354054853DollarAdjustableHoodedRainSuit1.jpg",
+            "product_name": "Dollar – Men Hooded Rain Jacket (XXL)",
+            "price": 786
+        }
+    ]
+}
