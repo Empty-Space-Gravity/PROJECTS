@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body
+{
+    background-color: black;
+}
+.container {
+
+    height: 73vh;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    gap: 20px;
+
+}
