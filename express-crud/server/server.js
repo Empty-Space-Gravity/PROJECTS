@@ -67,7 +67,7 @@ APP.patch(`/updatecar/:id`, async (request, response) => {
 APP.use(EXPRESS.static(path.join(__dirname, "../client/dist")));
 
 // Anything that doesn't match the above routes, send back index.html
-APP.get("*", (req, res) => {
+APP.use((req, res) => {
     res.sendFile(path.join(__dirname, "../client/dist/index.html"));
 });
 
