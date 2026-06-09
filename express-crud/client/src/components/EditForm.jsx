@@ -10,7 +10,7 @@ export default function EditForm({carid,carname = "", carimg = "", onClose, setL
     }
 
     function SaveToDb(){
-        axios.patch(`http://localhost:8080/updatecar/${carid}`,data)
+        axios.patch(`/updatecar/${carid}`,data)
         .then(() => {
             setLocalRefresh(prev => prev + 1);
         })

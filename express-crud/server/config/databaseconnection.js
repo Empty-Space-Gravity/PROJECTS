@@ -1,6 +1,10 @@
-const MONGOOSE = require(`mongoose`);
-const CONNECTION = MONGOOSE.connect(`mongodb://localhost:27017/Grav_Base`)
-.then(()=>console.log(`The DataBase Is Running Successfully...💠`))
-.catch((error)=>console.log(`There Was An Error...${error}♦️`));
+const mongoose = require("mongoose");
 
-module.exports = CONNECTION;
+
+if (!process.env.MONGO_URI) {
+    console.error("MONGO_URI is missing");
+}
+
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => console.log("The DataBase Is Running Successfully...💠"))
+    .catch((err) => console.log(err));

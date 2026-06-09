@@ -11,14 +11,14 @@ export default function CarCard({ refreshData, refresh }){
     const [localRefresh, setLocalRefresh] = useState(0);
     
     useEffect(()=>{     
-        axios.get("http://localhost:8080/cars")
+        axios.get("/cars")
         .then((response)=>setdata(response.data))
         .catch((error)=>console.log(`there was an error while fetching..${error}`));
     },[localRefresh, refresh]);
 
     
     function DeleteCard(id){
-        axios.delete(`http://localhost:8080/deletecar/${id}`)
+        axios.delete(`/deletecar/${id}`)
         .then(()=>{
             setdata(prev => prev ? prev.filter(item => item._id !== id) : []);
             console.log(`Car Has Been Successfully Deleted...`);

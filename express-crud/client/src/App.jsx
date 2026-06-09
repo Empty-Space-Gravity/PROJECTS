@@ -22,7 +22,7 @@ function App() {
     setIsSeeding(true);
     try {
       for (const car of DEMO_CARS) {
-        await axios.post("http://localhost:8080/cardata", car);
+        await axios.post("/cardata", car);
       }
       refreshData();
     } catch (error) {
@@ -34,7 +34,7 @@ function App() {
 
   function SendToDb() {
     if(!data.carname) return; // Allow submission without image, we will handle fallback in CarCard
-    axios.post("http://localhost:8080/cardata", data)
+    axios.post("/cardata", data)
       .then(() => {
         setdata({ carname: "", carimg: "" }); // reset
         refreshData();

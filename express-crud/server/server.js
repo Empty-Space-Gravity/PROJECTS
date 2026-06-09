@@ -1,9 +1,11 @@
+require("dotenv").config();
 const EXPRESS = require("express");
 const CORS = require("cors");
 const CONNECTION = require(`./config/databaseconnection`);
 const CARSCHEMA = require(`./model/carschema`);
+const path = require("path");
 const APP = EXPRESS();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 APP.use(EXPRESS.json());
 APP.use(CORS());
@@ -45,22 +47,29 @@ APP.delete(`/deletecar/:id`, async (request, response) => {
     }
 })
 
-APP.patch(`/updatecar/:id`,async(request,response)=>{
+APP.patch(`/updatecar/:id`, async (request, response) => {
 
-    try{ 
-        const {carname,carimg} = request.body;
+    try {
+        const { carname, carimg } = request.body;
         const CAR_ID = request.params.id;
-        await CARSCHEMA.updateOne({_id:CAR_ID}, {$set:{carname:carname, carimg:carimg}})
+        await CARSCHEMA.updateOne({ _id: CAR_ID }, { $set: { carname: carname, carimg: carimg } })
         response.status(200).json(`Data Has Been Updated Successfully...`);
-        
-    } catch(error) {
+
+    } catch (error) {
 
         response.status(400).json({
-            message:error.message
+            message: error.message
         })
     }
 })
 
+// Serve static files from the React frontend app
+APP.use(EXPRESS.static(path.join(__dirname, "../client/dist")));
+
+// Anything that doesn't match the above routes, send back index.html
+APP.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../client/dist/index.html"));
+});
 
 APP.listen(PORT, async () => {
     console.log(`Server Is Successfully Running At ${PORT}..🍃`);
