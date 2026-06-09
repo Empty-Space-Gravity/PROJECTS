@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: shark-tank-india
+    runtime: node
+    buildCommand: cd "saRAk tank/saRAk tank" && npm install
+    startCommand: cd "saRAk tank/saRAk tank" && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
