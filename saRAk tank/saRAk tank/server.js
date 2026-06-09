@@ -1,16 +1,10 @@
 const jsonServer = require('json-server');
 const path = require('path');
-const fs = require('fs');
 
 const server = jsonServer.create();
-const middlewares = jsonServer.defaults({
-  static: path.join(__dirname, 'public')
-});
-
-// Copy db.json to a writable location if needed (Render's filesystem)
 const dbPath = path.join(__dirname, 'db.json');
-
 const router = jsonServer.router(dbPath);
+const publicPath = path.join(__dirname, 'public');
 
 // Enable CORS for all origins
 server.use((req, res, next) => {
@@ -23,10 +17,19 @@ server.use((req, res, next) => {
   next();
 });
 
-server.use(middlewares);
+// Serve static files from public folder
+// json-server.create() returns an express app, so we can use express.static via require
+const express = require('express');
+server.use(express.static(publicPath));
+
+// Use json-server body parser
+server.use(jsonServer.bodyParser);
+
+// JSON server API routes
 server.use(router);
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`JSON Server is running on port ${PORT}`);
+  console.log(`Static files served from: ${publicPath}`);
 });
